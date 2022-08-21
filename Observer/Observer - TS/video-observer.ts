@@ -6,7 +6,7 @@ interface Observable{
 
 interface Observer{
     update(channelName:string):void; //Todo observador, al recibir la notificacion, recibira el nombre del canal que subio video.
-    getName():string; //Todo observador, en su cuenta de registro tendra un nombre.
+    getName():string; //Todo observador, en su cuenta de registro tendra un nombre.;
 }
 
 class Channel implements Observable{
