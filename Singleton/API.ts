@@ -4,7 +4,7 @@ export class API{
 
     private constructor(){
         if(API._instance){
-            console.log("Use getInstance() to use this. API already is initialized.");
+            console.log("Use getInstance() to use this. API is already initialized.");
             return;
         }
         API._instance = this;
