@@ -31,4 +31,6 @@ Orden de ejecución:
     7. En el caso de totalObserver, recibirá el objeto también entero, y tendrá que sumar cada uno de los precios.
     8. En el caso de dynamicObserver, recibirá el objeto también entero pero ejecutará una función que lo que hará es retornar la longitud de array de items.
     9. Por último, si queremos que un Observador deje de estar pendiente de un sujeto, le decimos al Sujeto que ese Observador dejará de estar pendiente y lo eliminará de la lista (unsuscribe(dynamicObserver))
+
+    De esta forma podemos imaginar como trabajan los Frameworks y la actualización en tiempo real de las cosas como si fuese un control de estados.
 */
