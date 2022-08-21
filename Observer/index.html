@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observer</title>
+</head>
+<body>
+   <div>
+        <label> Descripcion </label>
+        <input type="text" id="txtDescription">
+        <label> Total </label>
+        <input type="number" id="txtAmount">
+        <button onclick="add()">Agregar</button>
+   </div>
+
+   <div id="list">
+        <div>
+            <label> Total: </label>
+            <span id="spnTotal">0</span>
+        </div>
+   </div>
+
+   <div>
+        <label>Cantidad: </label>
+        <span id="spnCount"></span>
+   </div>
+
+   <script src="main.js"></script>
+   <script src="controller.js"></script>
+</body>
+</html>
